@@ -6,14 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives | Hexo</title>
+  <title>我的第一篇博客 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/archives/index.html">
+  <meta name="description" content="前言​    本次博客的搭建参考的是B站up主–&gt;CodeSheep 的视频, 新手搭建博客建议参考链接的视频, ​    我本人只是对这次windows系统上搭建进行总结,以及遇到问题的解决方法. ​        在linux,windows或mac系统操作上大同小异 ​        (我本人是windows搭建的,视频教程是mac系统) 准备工作 安装node.js (下载LTS版">
+<meta property="og:type" content="article">
+<meta property="og:title" content="我的第一篇博客">
+<meta property="og:url" content="http://yoursite.com/2020/07/10/github+hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="前言​    本次博客的搭建参考的是B站up主–&gt;CodeSheep 的视频, 新手搭建博客建议参考链接的视频, ​    我本人只是对这次windows系统上搭建进行总结,以及遇到问题的解决方法. ​        在linux,windows或mac系统操作上大同小异 ​        (我本人是windows搭建的,视频教程是mac系统) 准备工作 安装node.js (下载LTS版">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-07-10T15:56:34.000Z">
+<meta property="article:modified_time" content="2020-07-11T09:53:36.050Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="前言">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -150,36 +155,184 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-github+hexo搭建个人博客" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2020" class="archive-year">2020</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/07/10/github+hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="archive-article-date">
-  	<time datetime="2020-07-10T15:56:34.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-07-10</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/07/10/github+hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">我的第一篇博客</a>
+    <h1 class="article-title" itemprop="name">
+      我的第一篇博客
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+        
+        <a href="/2020/07/10/github+hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="archive-article-date">
+  	<time datetime="2020-07-10T15:56:34.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-07-10</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <hr>
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>​    本次博客的搭建参考的是B站up主–&gt;<a href="https://www.bilibili.com/video/BV1Yb411a7ty" target="_blank" rel="noopener">CodeSheep</a> 的视频, 新手搭建博客建议参考链接的视频,</p>
+<p>​    我本人只是对这次<strong>windows系统</strong>上搭建进行总结,以及遇到问题的解决方法.</p>
+<p>​        在linux,windows或mac系统操作上大同小异</p>
+<p>​        (我本人是windows搭建的,视频教程是mac系统)</p>
+<h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><ol>
+<li>安装<a href="https://nodejs.org/en/" target="_blank" rel="noopener">node.js</a> (下载LTS版本即可)</li>
+</ol>
+<ol start="2">
+<li><p>我本人以安装<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">git</a> 并且通过git bash配置github仓库</p>
+<p>(文字链接均为官方下载地址)</p>
+</li>
+</ol>
+<ol start="3">
+<li><p>确保是否以安装node.js和git, 可通过cmd 输入</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git -v		<span class="comment">//查看git安装的信息</span></span><br><span class="line"></span><br><span class="line">node -v		<span class="comment">//查看node安装版本</span></span><br><span class="line"></span><br><span class="line">npm -v		<span class="comment">//查看npm安装版本</span></span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装<a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a></h3><p>通过<a href="https://www.npmjs.cn/" target="_blank" rel="noopener">npm</a>工具安装,国内下载镜像源较慢,所以可以先用npm工具安装国内淘宝npm镜像源<a href="https://developer.aliyun.com/mirror/NPM?from=tnpm" target="_blank" rel="noopener">cnpm</a> .</p>
+<p>​    (以下操作命令均在windows cmd下操作,linux则为shell,不同系统有些语法存在差异)</p>
+<p>​    (每个工具安装完可通过   <code>xxx -v</code>    查看<code>xxx</code>软件的版本)</p>
+<ul>
+<li><p>安装cnpm</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --registry=http:<span class="comment">//registry.npm.taobao.org</span></span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ul>
+<ul>
+<li><p>安装hexo框架</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>创建个人博客本地的文件夹</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//windows系统可以手动创建文件夹,然后在cmd 通过 cd xxx进入文件夹路径  xxx指文件夹名字</span></span><br><span class="line"><span class="comment">//也可通过命令进入目标文件夹路径后通过 mkdir创建文件夹  如下</span></span><br><span class="line">mkdir blog  <span class="comment">//这样就可在你操作命令的当前目录创建 'blog' 文件夹</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//若不知自己处在什么路径下 windows可通过 dir查看所处文件路径以及文件路径下的所有文件夹</span></span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ul>
+<ul>
+<li><p>进入创建的文件夹 初始化博客</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo init <span class="comment">//初始化</span></span><br><span class="line">    </span><br><span class="line"><span class="comment">//初始化成功后</span></span><br><span class="line">hexo s		<span class="comment">//hexo server 启动本地博客服务</span></span><br></pre></td></tr></table></figure>
+
+<p>启动后 通过浏览器输入地址<code>http://localhost:4000/</code>即可访问本地博客</p>
+<p>(默认初始化博客有一篇 Hello World 的文章</p>
+</li>
+</ul>
+<ul>
+<li><p>创建你的第一篇博客</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo n &quot;我的第一篇博客&quot;</span><br></pre></td></tr></table></figure>
+
+<p>然后可以手动进入博客文件夹路径下的source_posts文件夹里找到文件并且可以修改里面内容 </p>
+<p>注意:这里创建的md格式文件可以通过markdown语法编辑,具体语法我下一篇博客也有介绍</p>
+</li>
+</ul>
+<ul>
+<li><p>生成博客</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">hexo clean #清理</span><br><span class="line">hexo g #生成</span><br><span class="line"></span><br><span class="line"><span class="comment">//生成后通过</span></span><br><span class="line">hexo s</span><br><span class="line"><span class="comment">//http://localhost:4000/  访问修改后的本地博客</span></span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ul>
+<hr>
+<h2 id="部署到Github"><a href="#部署到Github" class="headerlink" title="部署到Github"></a>部署到Github</h2><ul>
+<li>创建/登陆<a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>账号</li>
+</ul>
+<ul>
+<li><p>点击右上角’+’ ,new repository  创建新的仓库</p>
+<ul>
+<li><p>注意Repository name 必须为’GitHub账号.github.io’</p>
+<p>例如我的github为<code>892204906</code>  则这里仓库则命名为<code>892204906.github.io</code></p>
+<p>同时,这也是以后你博客的地址</p>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>配置 _config.yml</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//在  # Deployment位置 下面的type: 写上git</span></span><br><span class="line"><span class="comment">/* 注意 1.冒号':' 后面要留有一空格</span></span><br><span class="line"><span class="comment">    2.若type: 原本有单引号''  则在单引号内填写git*/</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//如下</span></span><br><span class="line">type: <span class="string">'git'</span></span><br><span class="line">    </span><br><span class="line"><span class="comment">//repo: 下填写仓库地址  如我的</span></span><br><span class="line">repo: https:<span class="comment">//github.com/892204906/892204906.github.io</span></span><br><span class="line"> </span><br><span class="line"><span class="comment">//branch 写上master</span></span><br><span class="line">branch: master</span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ul>
+<ul>
+<li><p>部署到Github仓库</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo c	&#x2F;&#x2F;清理一下</span><br><span class="line">hexo g	&#x2F;&#x2F;生成</span><br><span class="line">hexo d	&#x2F;&#x2F;部署到远程Github仓库</span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ul>
+<ul>
+<li><p>访问博客</p>
+<ul>
+<li>GitHub仓库名字 如 我的 <a href="https://892204906.github.io/" target="_blank" rel="noopener">https://892204906.github.io/</a></li>
+</ul>
+</li>
+</ul>
+<p>​                                    大功告成 ! ! ! ! ! ! </p>
+<hr>
+<h2 id="搭建失败及解决方法"><a href="#搭建失败及解决方法" class="headerlink" title="搭建失败及解决方法"></a>搭建失败及解决方法</h2><ul>
+<li><p>部署hexo时无论什么时候出现错误无法解决,想重新安装   或者旧博客不想用了  </p>
+<p>​        都是直接删除blog文件夹(即本地博客文件夹),或者文件夹的内容即可</p>
+<pre><code>- 注意,若是只想删除文件夹内容,重新在该文件夹下载hexo,则要记得删除文件夹内的隐藏文件</code></pre></li>
+</ul>
+<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul>
+<li><p>B站视频 <a href="https://www.bilibili.com/video/BV1Yb411a7ty" target="_blank" rel="noopener">CodeSheep</a>  视频内还要更换主题教程,同时评论区也有许多值得参考的评论</p>
+<p>​    (第一次写博客并且用markdown,太累了,就不写了)</p>
+</li>
+</ul>
+<ul>
+<li><p><a href="www.baidu.com">百度</a>也有许多参考</p>
+</li>
+<li><p>若还是不懂,也可以联系我,也许我可以帮得上忙 QQ:<code>892204906</code></p>
+</li>
+</ul>
+<h3 id="其他博客框架"><a href="#其他博客框架" class="headerlink" title="其他博客框架"></a>其他博客框架</h3><p><a href="https://solo.b3log.org/" target="_blank" rel="noopener">SoLo</a></p>
+<p><a href="https://vuepress.vuejs.org/zh/" target="_blank" rel="noopener">VuePress</a></p>
+<p><a href="https://www.gohugo.org/" target="_blank" rel="noopener">Hugo</a></p>
+<p><a href="https://jekyllrb.com/" target="_blank" rel="noopener">jekyllrb</a></p>
+<h2 id="建议"><a href="#建议" class="headerlink" title="建议:"></a>建议:</h2><p>1.新手最好用比较流行的博客框架,这样部署出问题网上也比较容易找到解决方法</p>
+<p>2.想进行个性化定制博客，可以多参考Hexo官方中文文档.</p>
+<p>3.听说部署到gitee上访问会比GitHub快,有兴趣的伙伴可以自己尝试下,方法也大同小异,百度是可以很容易找到教程.</p>
+<h4 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h4><p>博客修改完可以先通过启动本地服务访问 <code>localhost:4000</code>预览,然后记得一定要更让新部署才可以让别人访问看到变化.</p>
+<p>GitHub上更新完也许不会马上看到新的改变,可以试试等待几分钟再重新访问</p>
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -191,46 +344,106 @@
 		</ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2020/07/10/github+hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/07/10/hello-world/" class="archive-article-date">
-  	<time datetime="2020-07-10T15:43:25.493Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-07-10</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2020/07/10/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Hello World</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/07/10/hello-world/">Hello World</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
+
+  
 
 
           </div>
@@ -253,8 +466,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
